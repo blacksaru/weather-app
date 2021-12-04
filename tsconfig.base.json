@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@weather-app/services": ["libs/services/src/index.ts"],
+      "@weather-app/store": ["libs/store/src/index.ts"],
+      "@weather-app/ui": ["libs/ui/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
